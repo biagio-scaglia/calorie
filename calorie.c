@@ -9,7 +9,7 @@ int main(void) {
     double calorie_per_settimana[NUM_GIORNI] = {0.0};
     double media_calorie = 0.0;
 
-    for (int i = 0; i < NUM_GIORNI; i++) {
+    for (int i= 0; i < NUM_GIORNI; i++) {
         printf("Queste sono le calorie del giorno %d.\n", i + 1);
         do {
             printf("Inserire un valore positivo:\n ");
